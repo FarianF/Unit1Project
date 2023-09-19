@@ -15,7 +15,9 @@ public class Main {
 
 
         Scanner tipPercent = new Scanner(System.in);
-        
+        System.out.println("What percent do you want to tip: ");
+        String tipPrct = tipPercent.nextLine();
+        int tipPrctTwo = Integer.parseInt(tipPrct);
 
 
 
